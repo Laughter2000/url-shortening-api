@@ -344,7 +344,7 @@ p not button:hover,
   .copy-background {
     background-color: hsl(257, 27%, 26%) !important;
   }
-media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   body {
     min-width: 1200px;
   }
