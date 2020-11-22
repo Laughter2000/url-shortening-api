@@ -339,7 +339,12 @@ p not button:hover,
   color: hsl(257, 27%, 26%);
   cursor: pointer;
 }
-@media only screen and (min-width: 768px) {
+
+
+  .copy-background {
+    background-color: hsl(257, 27%, 26%) !important;
+  }
+media only screen and (min-width: 768px) {
   body {
     min-width: 1200px;
   }
@@ -531,8 +536,5 @@ p not button:hover,
     margin: 0;
     padding: 0;
     margin-left: 2%;
-  }
-  .copy-background {
-    background-color: hsl(257, 27%, 26%) !important;
   }
 }
