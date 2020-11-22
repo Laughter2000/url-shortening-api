@@ -37,6 +37,7 @@ const Form = () => {
         }
       })
       .catch((e) => console.log(e));
+    // eslint-disable-next-line
   }, [finalUrl]);
 
   const copyUrl = (url) => {

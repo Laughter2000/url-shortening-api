@@ -30,10 +30,7 @@ const Footer = () => {
           <p>Contact</p>
         </div>
         <div className="social-icon">
-          <a href="">
-            <img src={Facebook} alt="facebook-logo" />
-          </a>
-
+          <img src={Facebook} alt="facebook-logo" />
           <img src={Twitter} alt="twitter-logo" />
           <img src={Pinterest} alt="pinterest-logo" />
           <img src={Instagram} alt="instagram-logo" />
